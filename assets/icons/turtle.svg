@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Snail body -->
+  <ellipse cx="30" cy="48" rx="22" ry="8" fill="url(#sn)"/>
+  <!-- Snail shell -->
+  <circle cx="36" cy="34" r="14" fill="url(#sh)"/>
+  <circle cx="36" cy="34" r="10" fill="none" stroke="#B0BEC5" stroke-width="1.5" opacity="0.4"/>
+  <path d="M36 24c0 5-4 10-8 10" stroke="#B0BEC5" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Shell spiral hint -->
+  <circle cx="36" cy="34" r="6" fill="none" stroke="#B0BEC5" stroke-width="1" opacity="0.3"/>
+  <!-- Eye stalks -->
+  <line x1="16" y1="44" x2="12" y2="34" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="20" y1="44" x2="18" y2="34" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="12" cy="33" r="3" fill="#90A4AE"/>
+  <circle cx="18" cy="33" r="3" fill="#90A4AE"/>
+  <circle cx="12" cy="32.5" r="1.5" fill="#FFF"/>
+  <circle cx="18" cy="32.5" r="1.5" fill="#FFF"/>
+  <circle cx="12.5" cy="32" r="0.8" fill="#37474F"/>
+  <circle cx="18.5" cy="32" r="0.8" fill="#37474F"/>
+  <!-- Ground shadow -->
+  <ellipse cx="30" cy="56" rx="18" ry="2" fill="#94A3B8" opacity="0.1"/>
+  <!-- Zzz -->
+  <text x="48" y="22" font-size="8" font-weight="bold" fill="#94A3B8" opacity="0.5">z</text>
+  <text x="52" y="16" font-size="6" font-weight="bold" fill="#94A3B8" opacity="0.4">z</text>
+  <defs>
+    <linearGradient id="sn" x1="10" y1="44" x2="50" y2="52">
+      <stop offset="0%" stop-color="#B0BEC5"/>
+      <stop offset="100%" stop-color="#90A4AE"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="24" y1="22" x2="48" y2="46">
+      <stop offset="0%" stop-color="#CFD8DC"/>
+      <stop offset="100%" stop-color="#B0BEC5"/>
+    </linearGradient>
+  </defs>
+</svg>

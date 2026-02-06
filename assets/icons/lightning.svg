@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Glow circle -->
+  <circle cx="32" cy="32" r="28" fill="#FFF8E1" opacity="0.6"/>
+  <!-- Lightning bolt -->
+  <path d="M36 8L18 36h12L26 56l20-30H34L36 8z" fill="url(#lg)"/>
+  <!-- Sparkles -->
+  <circle cx="14" cy="18" r="2" fill="#FFD700" opacity="0.7"/>
+  <circle cx="50" cy="14" r="1.5" fill="#FFA000" opacity="0.6"/>
+  <circle cx="48" cy="48" r="2" fill="#FFD700" opacity="0.5"/>
+  <circle cx="12" cy="46" r="1.5" fill="#FFA000" opacity="0.4"/>
+  <defs>
+    <linearGradient id="lg" x1="22" y1="8" x2="40" y2="56">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA000"/>
+    </linearGradient>
+  </defs>
+</svg>
